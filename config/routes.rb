@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
+  get 'projects/index'
 
-  resources :projects
+  # projects
+  get 'bin_to_dec' => 'bin_to_dec#index'
 
-  root 'welcome#index'
+  root 'projects#index'
 end
