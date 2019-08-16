@@ -1,24 +1,3 @@
-# README
+# projects
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rails server for hosting the various projects I've outlined in this [post.](https://jayson.dev/blog/2019/06/kicking-off-projects/)
