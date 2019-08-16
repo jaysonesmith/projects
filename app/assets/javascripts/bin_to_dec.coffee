@@ -1,5 +1,5 @@
 @convert = (input) ->
-    if /[a-z2-9\s]/.test(input)
+    if /[^01]/.test(input)
         return "Please try again with only 0's, and 1's."
 
     out = 0
