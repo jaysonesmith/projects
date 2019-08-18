@@ -9,11 +9,9 @@
     flex: 1 100%;
 }
 
-// .slider-top {
+// .slider-top {}
 
-// }
-
-.slider-left {
+.slider-left-container {
     order: 1;
     flex: 1 auto;
     align-self: center;
@@ -29,17 +27,17 @@
     height: 300px;
     width: 300px;
     background-color: rgb(13, 203, 228);
-    border-top-left-radius: 50%;
+    border-radius: 50%;
     margin: 20px;
 }
 
-.slider-right {
+.slider-right-container {
     order: 3;
     flex: 1 auto;
     align-self: center;
 }
 
-.slider-bottom {
+.slider-bottom-container {
     order: 4;
 }
 

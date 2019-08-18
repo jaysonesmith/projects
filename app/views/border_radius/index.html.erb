@@ -2,25 +2,37 @@
 <p>Grab the sliders to change the border radius of the shape.</p>
 
 <div class="container">
-
-    <div class="slider slider-top">
-        <input type="range" min="0" max="100" value="50">
+    <div class="slider slider-top-container">
+        <input id="slider-top" type="range" min="0" max="100" value="50" oninput="topChange()">
     </div>
 
-    <div class="slider slider-left">
-        <input type="range" orient="vertical" min="0" max="100" value="50">
+    <div class="slider slider-left-container">
+        <input id="slider-left" type="range" orient="vertical" min="0" max="100" value="50" oninput="leftChange()">
     </div>
 
     <div class="shape-container">
-        <div class="shape"></div>
+        <div id="shape" class="shape"></div>
     </div>
 
-    <div class="slider slider-right">
-        <input type="range" orient="vertical" min="0" max="100" value="50">
+    <div class="slider slider-right-container">
+        <input id="slider-right" type="range" orient="vertical" min="0" max="100" value="50" oninput="rightChange()">
     </div>
 
-    <div class="slider slider-bottom">
-        <input type="range" min="0" max="100" value="50">
+    <div class="slider slider-bottom-container">
+        <input id="slider-bottom" type="range" min="0" max="100" value="50" oninput="bottomChange()">
     </div>
+</div>
 
+<div class="radius-values">
+    <p id="rv">
+        <span id="top-l" type="text">50%</span>
+        <span id="top-r" type="text">50%</span>
+        <span id="bottom-l" type="text">50%</span>
+        <span id="bottom-r" type="text">50%</span>
+        /
+        <span id="left-l" type="text">50%</span>
+        <span id="right-l" type="text">50%</span>
+        <span id="right-r" type="text">50%</span>
+        <span id="left-r" type="text">50%</span>
+    </p>
 </div>
